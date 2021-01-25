@@ -1,6 +1,7 @@
 import './App.css';
 import ColorPicker from './ColorPicker';
 import { useState } from 'react';
+import Title from './Title';
 
 function App() {
   const [red, setRed] = useState(23);
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="div-body" style={appStyle}>
+      <h1>React Color Picker!</h1>
      <ColorPicker
      label="R"
      color={red}

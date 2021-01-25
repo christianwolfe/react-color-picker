@@ -1,5 +1,9 @@
 body, html, #root {
   margin: 0;
+  display: grid;
+  color: white;
+  place-items: center;
+  background-color: #2a2a2a;
   place-items: center;
   padding: 0;
   height: 100%;
@@ -11,9 +15,12 @@ body, html, #root {
   -moz-osx-font-smoothing: grayscale;
 }
 .div-body {
+  margin: 0;
+  padding: 5rem;
   text-align: center;
-  place-items: center;
-  padding-top: 20rem;
-  height: 100%;
-  width: 100%
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px black;
+  height: 40%;
+  width: 40%
 }
